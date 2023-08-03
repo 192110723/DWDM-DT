@@ -1,0 +1,6 @@
+x <- c(1, 2, 3, 4, 5)
+y <- c(3, 6, 7, 9, 11)
+model <- lm(y ~ x)
+summary(model)
+plot(x, y, main = "Linear Regression Example", xlab = "X-axis", ylab = "Y-axis")
+abline(model, col = "red")
